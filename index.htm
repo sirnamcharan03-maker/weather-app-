@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .red{
+        color: red;
+      }
+    </style>
+</head>
+<body>
+    <!--  <input id="task" placeholder="enter task">
+     <button id="btn">ADD TASK</button>
+     <div id="list"></div> -->
+     <!-- <h1 id="text">hello guru</h1>
+    <button btn="change">change text</button> -->
+    <!-- <input id="number1">
+     <input id="number2">
+     <button onclick="add()">+</button> 
+      <button onclick="sub()">-</button>
+       <button onclick="div()">*</button>
+        <button onclick="multi()">/</button>
+
+        <h1 id="result"></h1> -->
+        
+        <!-- PRACTUSE -->
+         <!-- problem1 -->
+
+       <!--  <ul id="shopping"></ul> -->
+        
+       <!-- problem 2 -->
+
+       <!-- <button id="btn">click</button>
+       <p id="op"></p> -->
+
+       <!-- problem 3 -->
+
+      <!--  <h1 id="message">how are you?</h1>
+       <button id="btn">toggle color</button> -->
+
+       <!-- MINI SHOPPING LIST -->
+
+      <!--  <h2> my shopping list</h2>
+        <ul id="shopppinglist">
+               <li>apple</li>
+               <li>banana</li>
+               <li>grapes</li>
+        </ul>
+
+        <button id="btn">remove</button> -->
+
+        <!-- problem 4 -->
+         
+       <!--  <input id="name" placeholder="enter your name" >
+        <p id="counter">0</p> -->
+
+        <p id="output"></p>
+       
+      <script>
+      /*  let input=document.querySelector("#task");
+       let button=document.querySelector("#btn");
+       let list=document.querySelector("#list");
+    
+
+       button.addEventListener("click",addtask);
+      
+        
+       function addtask(){
+             
+          
+             let deletebtn=
+                document.createElement("button");
+                
+            let task=document.createElement("p");
+
+
+             deletebtn.innerText="delete";
+         
+            task.innerText=input.value;
+            
+             deletebtn.addEventListener("click", function(){
+            task.remove();
+       })
+             task.append(deletebtn)
+
+            list.appendChild(task)
+            
+            input.value=""; */
+            // list.innerText=input.value;
+
+            //  input.value=input.value;
+       /* } */
+      //  function delet(){
+      //       task.remove();
+      //  }
+    // 
+    //  let heading=
+    //    document.createElement("h1");
+    //    heading.innerText="how are you";
+
+    //    document.body.appendChild(heading);
+
+    //    heading.remove();
+    // //   function add(){
+   
+    //   let num1=Number(document.getElementById("number1").value);
+    //    let num2=Number(document.getElementById("number2").value);
+    //    let add=num1+num2;
+    //    document.getElementById("result").innerText=add;
+    //   }
+    //    function sub(){
+   
+    //   let num1=Number(document.getElementById("number1").value);
+    //    let num2=Number(document.getElementById("number2").value);
+    //    let sub=num1-num2;
+    //    document.getElementById("result").innerText=sub;
+    //   }
+    //    function div(){
+   
+    //   let num1=Number(document.getElementById("number1").value);
+    //    let num2=Number(document.getElementById("number2").value);
+    //    let div=num1/num2;
+    //    document.getElementById("result").innerText=div;
+    //   }
+    //    function multi(){
+   
+    //   let num1=Number(document.getElementById("number1").value);
+    //    let num2=Number(document.getElementById("number2").value);
+    //    let multi=num1*num2;
+    //    document.getElementById("result").innerText=multi;
+    //   }
+
+
+    // PRACTISE
+    // problem1
+
+   /*  let item = document.createElement("li");
+        
+    item.textContent = "apple";
+    let list = document.getElementById("shopping");
+    
+    list.appendChild(item);
+ */
+
+//  let btn = document.getElementById("btn");
+//  let output = document.getElementById("op");
+
+//  btn.addEventListener("click",function(){
+
+//   output.textContent = "hlo guru how are you?";
+//  })
+
+/* problem 3 */
+
+/* let msg = document.getElementById("message");
+let btn = document.getElementById("btn");
+
+btn.addEventListener("click", function(){
+
+  msg.classList.toggle("red")
+}) */
+
+/* MINI SHOPPIND LIST */
+/* 
+    let shopping = document.getElementById("shoppinglist");
+    let btn = document.getElementById("btn");
+
+    btn.addEventListener("click",function(){
+      console.log("button clicked!")
+
+      if(shopping.lastElementChild)
+    {
+      shopping.lastElementChild.remove();
+    }
+    }) */
+
+    /* problem3  */
+     /*   let name=document.getElementById("name");
+       let counter = document.getElementById("counter");
+
+       name.addEventListener("input",function(){
+
+        counter.textContent= name.value.length;
+       }); */
+
+
+       
+// let age= 20;
+
+// let checkage= new promise((resolve,reject) =>
+//       { if (age>=18){
+//   resolve("eligible");
+// }
+//   else{
+//     reject("not eligible");
+//   }}
+// );
+
+// checkage
+//      .then((message) =>
+//       {console.log(message)})
+     
+//      .catch((error) =>
+//     {console.log(error)});
+
+// let age=20;
+// let agechecker = new
+//  promise((resolve,reject) =>{
+//      if (age>=18){
+//        resolve("eligible")}
+//     else
+//      { reject("not eligible")}
+//  })
+//  agechecker
+//     .then((message)=>{
+//       document.getElementById("output").textContent=message
+       
+//     })
+
+//     .catch((error)=>(
+//       document.getElementById("output").textContent= error
+// ))
+
+let p = new Promise(
+        
+      function(resolve,reject){
+        let database = true;
+        if(database){
+          resolve("succesful");
+        }
+        else{
+          reject("unsucessful");
+        }
+      }
+
+)
+console.log(P)
+    
+
+      </script>
+    
+
+</body>
+</html>

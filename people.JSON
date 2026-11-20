@@ -1,0 +1,8 @@
+{
+    "name":"charan",
+    "age": "12",
+    "college": "kakarthiya jr college",
+    "skills": ["html","css","javascript"],
+    "country": "india"
+     
+}
